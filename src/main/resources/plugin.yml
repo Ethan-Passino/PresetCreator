@@ -1,0 +1,10 @@
+main: me.TurtlesAreHot.PresetCreator.Main
+name: PresetCreator
+version: 1.0.0
+description: This plugin allows people to create presets depending on hotbar slots.
+author: TurtlesAreHot
+api-version: 1.16
+depend: [ProjectKorra]
+commands:
+  pu:
+    description: Allows you to create a preset depending on which slot you are on.
