@@ -13,7 +13,7 @@ public class PU implements CommandExecutor {
             return false;
         }
         Player p = (Player) sender;
-        int slot = p.getInventory().getHeldItemSlot();
+        int slot = p.getInventory().getHeldItemSlot() + 1;
         p.getServer().dispatchCommand(sender, "b p c " + slot);
         return false;
     }
